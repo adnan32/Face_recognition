@@ -61,7 +61,7 @@ for person in sorted(os.listdir(root)):
     mean = E.mean(axis=0)           # (512,)
     mean /= (np.linalg.norm(mean) + 1e-8)
 
-    names.append(person[5:])        # keep if you really want to strip a prefix
+    names.append(person[5:])
     means.append(mean)
     print(f"{person}: {E.shape[0]} samples, mean norm={np.linalg.norm(mean):.3f}")
 np.savez("gallery_embeddings.npz", names=np.array(names, dtype=object), means=np.stack(means))
