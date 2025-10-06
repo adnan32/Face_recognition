@@ -109,8 +109,6 @@ python recognition_webcam.py
 person:  Adnan
 pins_Adnan: 33 samples, mean norm=1.000
 ```
-<img width="353" height="334" alt="Skärmbild 2025-10-06 013401" src="https://github.com/user-attachments/assets/929a4366-95f4-4238-add0-d530027f0af0" />
-
 **Recognition stage:**
 Live webcam feed shows bounding boxes and labels like:
 
@@ -118,6 +116,7 @@ Live webcam feed shows bounding boxes and labels like:
 Adnan  0.73
 Unknown  0.18
 ```
+<img width="353" height="334" alt="Skärmbild 2025-10-06 013401" src="https://github.com/user-attachments/assets/929a4366-95f4-4238-add0-d530027f0af0" />
 
 ## Tech Stack
 
